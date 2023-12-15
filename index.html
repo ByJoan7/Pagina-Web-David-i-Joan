@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web David i Joan</title>
+    <link rel="icon" type="image/png" href="imatges/podman2.png">
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            background-color: #1a001a;
+            overflow: auto;
+        }
+
+        li a {
+            display: block;
+            color: #ff99ff;
+            padding: 8px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover {
+            color: white;
+            margin: 2px;
+        }
+
+        .menu {
+            float: left;
+            width: 20%;
+        }
+
+        .main {
+            float: left;
+            width: 80%;
+            padding: 0 5%;
+        }
+
+        @media only screen and (max-width: 620px) {
+  /* For mobile phones: */
+  .menu, .main {
+    width: 100%;
+  }
+}                
+    </style>
+</head>
+<body>
+    <div style="overflow:auto">
+        <div class="menu">
+            <ul>
+                <a href="index.html"><img src="imatges/podman.png" alt="podman logo" style="width:85%;"></a>
+                <p style="color:#fff;margin:5%;padding:2px;">¡Bienvenidos a la Web de David i Joan!</p><br>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="sobrenosotros.html">Sobre nosotros</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <br>
+                <p style="color:#fff;margin:5%;padding:2px;">Este sitio es mantenido por David y Joan.<br></p>
+                <br><hr><br>
+                <p style="color:#fff;margin:5%;padding:2px;text-align:center">(cc) David y Joan 2023</p><br>
+            </ul>
+        </div>
+
+        <div class="main">
+            <br>
+            <img src="imatges/podman.png" alt="podman logo" style="width:85%;">
+            <p>Bienvenidos a nuestra página web. Aquí compartiremos noticias y experiencias interesantes.</p>
+            <h1>Últimas Novedades</h1>
+            <span>28 Oct 2023</span> »
+            <a href="/new/2023/10/28/new.html" title="Nueva sección en nuestro blog">Nueva sección en nuestro blog</a><p></p>
+            <p>
+            </p>
+            <p>Estamos emocionados de presentar una nueva sección en nuestro blog. ¡No se lo pierdan!</p>
+
+            <span>27 Oct 2023</span> »
+            <a href="/new/2023/10/27/new.html" title="Historias emocionantes de nuestras aventuras">Historias emocionantes de nuestras aventuras</a><p></p>
+            <p>
+            </p>
+            <p>Compartiremos historias emocionantes de nuestras últimas aventuras. ¡Estén atentos para más detalles!</p>
+
+            <span>16 Oct 2023</span> »
+            <a href="/new/2023/10/16/new.html" title="Consejos para una vida equilibrada">Consejos para una vida equilibrada</a><p></p>
+            <p>
+            </p>
+            <p>En nuestro último blog, compartiremos consejos para mantener un equilibrio saludable en la vida cotidiana.</p>
+        </div>
+    </div>
+</body>
+</html>
